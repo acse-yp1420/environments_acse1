@@ -1,8 +1,6 @@
 from envtest import smooth_image
-
 from scipy import misc
 import matplotlib.pyplot as plt
-
 
 image = misc.ascent()
 sigma = 5
@@ -15,4 +13,3 @@ plt.imshow(image)
 f.add_subplot(1, 2, 2)
 plt.imshow(smoothed_image)
 plt.show(block=True)
-

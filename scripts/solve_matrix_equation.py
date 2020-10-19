@@ -9,3 +9,4 @@ b = Matrix(MatrixSymbol('b', 3, 1))
 x = my_mat_solve(A, b)
 
 print(x)
+print(b)
